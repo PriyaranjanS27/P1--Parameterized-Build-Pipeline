@@ -5,7 +5,8 @@ choice(name: 'ENVIRONMENT', choices: ['dev', 'staging', 'prod'], description: 'S
 stages {
 stage('Checkout') {
 steps {
-git branch: 'main', url: 'https://github.com/<student-username>/<repo-name>.git'
+git branch: 'main', url: 'git 'https://github.com/PriyaranjanS27/P1--Parameterized-Build-Pipeline.git'
+'
 }
 }
 stage('Show Parameter') {
